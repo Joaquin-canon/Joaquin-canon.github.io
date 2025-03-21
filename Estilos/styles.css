@@ -1,0 +1,174 @@
+:root {
+    --color1: #ffffff; /* fondo */
+    --color2: #5e9188; /* formulario */
+    --color3: #3e5954; /* acento oscuro */
+    --color4: #253342; /* nav */
+    --color5: #232226; /* texto contraste */
+  }
+
+
+
+
+
+
+
+.Titulo{
+    text-align: center;
+}
+
+/* menu */
+.sidebar {
+    width: 250px; /* Aumentar tamaño */
+    background-color: var(--color2); /* Verde oscuro */
+    color: white;
+    position: fixed;
+    height: 100vh;
+    overflow: hidden;
+    transition: width 0.3s ease-in-out;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px; /* Más espacio */
+    display: flex;
+    align-items: center;
+    font-size: 18px; /* Texto más grande */
+}
+
+.sidebar a i {
+    margin-right: 12px; 
+    font-size: 20px; 
+}
+
+.sidebar a:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+    color: #FFFFFF; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--color4); /* Verde claro */
+    color: white;
+    padding: 15px;
+    font-size: 18px; /* Texto más grande */
+}
+
+/* Tabla */
+.table {
+    border: 2px solid black; /* Bordes más gruesos */
+    margin: auto; /* Centrar */
+    width: 90%;
+}
+
+.table th, .table td {
+    border: 2px solid black;
+    text-align: center;
+    padding: 12px; /* Más espacio dentro de la celda */
+    font-size: 16px; /* Texto más grande */
+}
+
+/* Botones */
+.btn {
+    font-size: 16px; /* Aumentar tamaño del texto en los botones */
+    padding: 12px 20px; /* Ajustar tamaño del botón */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    width: auto;
+}
+
+.btn i {
+    margin-right: 8px; /* Espacio entre icono y texto en botones */
+    font-size: 18px; /* Tamaño del icono más grande */
+}
+
+.btn-crear {
+    background-color: #007BFF; /* Azul */
+    color: white;
+}
+
+.btn-editar {
+    background-color: #FDD744; /* Amarillo */
+    color: black;
+}
+
+.btn-eliminar {
+    background-color: #DC3545; /* Rojo */
+    color: white;
+}
+
+/* Ajuste de botones en contenedores */
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* Espaciado entre botones */
+    justify-content: center;
+}
+
+.login-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+/*  código para el  login */
+.body_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, hsl(152, 100%, 50%), #0056b3);
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.login_container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+    color: #555;
+    text-align: left;
+    margin-top: 12px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 20px !important; /* Asegura más separación */
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 30px !important; /* Asegura más separación con el input */
+}
+
+p {
+    font-size: 14px;
+    margin-top: 40px !important; /* Aumenta más la separación con el botón */
+}
+
